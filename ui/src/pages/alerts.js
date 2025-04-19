@@ -1,6 +1,7 @@
 let sortOrder ;
 let editor = null;
 
+//just a comment for git commit
 function objectToQueryString(obj) {
   return Object.keys(obj)
     .filter(key => obj[key] !== undefined && obj[key] !== null && obj[key] !== '')
